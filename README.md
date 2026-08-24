@@ -1,49 +1,35 @@
-<div align="center">
+# Yao Song
 
-![Yao Song — Software Engineering](https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:8B5CF6&height=190&section=header&text=Yao%20Song&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Software%20Engineering%20%E2%80%A2%20Web%20Development%20%E2%80%A2%20Embedded%20Systems&descSize=18&descAlignY=58)
+**Applied Machine Learning · Computer Vision · Production Systems**
 
-[![Open to opportunities](https://img.shields.io/badge/Open%20to-Software%20Engineering%20Opportunities-0EA5E9?style=for-the-badge)](https://github.com/YaoSong808)
+I build end-to-end systems across perception research, model training and operational software. My current work centres on multimodal autonomous-driving perception, dense scene understanding and data-intensive business workflows. I am pursuing an MSc in Computer Science at The University of Hong Kong.
 
-</div>
+## Selected engineering work
 
-## Hello! 👋
-
-I'm a software engineering student who enjoys turning ideas into clear, usable products — from Java desktop applications and responsive web experiences to Arduino prototypes.
-
-- 🔭 Building practical projects with a focus on real user needs
-- 🌱 Strengthening Java, modern web fundamentals, and software quality
-- 🤝 Comfortable collaborating in teams and iterating from feedback
-- 💼 Open to internship and entry-level software engineering opportunities
-
-## Selected projects
-
-| Project | What it demonstrates | Stack |
+| Project | Engineering focus | Stack |
 |---|---|---|
-| [**KidsBank**](https://github.com/YaoSong808/Software-Engineering-Group-23) | A team-built desktop app that helps children learn money management through accounts, tasks, savings goals, deposits, and rewards. Includes structured controllers, reusable utilities, and unit tests. | Java, JavaFX, FXML, JUnit |
-| [**ParkShare**](https://github.com/YaoSong808/ParkNLot) | A responsive parking-sharing concept with driver and owner portals, nearby-space discovery, booking flows, and a digital wallet interface. | HTML, Tailwind CSS, JavaScript |
-| [**Obstacle-Avoidance Robot**](https://github.com/YaoSong808/D-Bproject) | Arduino control logic for an autonomous robot using three ultrasonic sensors, motor control, and an I²C LCD. | Arduino, C++ |
+| [**Urban Scene Semantic Segmentation**](https://github.com/YaoSong808/urban-scene-semantic-segmentation) | U-Net and DeepLabV3+ pipelines for dense urban-scene understanding. The retained U-Net experiment records **0.6786 mIoU** and **89.42% pixel accuracy** on its validation split. | Python, TensorFlow, PyTorch, OpenCV |
+| [**Commerce Operations Platform**](https://github.com/YaoSong808/commerce-operations-platform) | Full-stack operational system spanning product data, marketplace orders, procurement, inventory, warehouse fulfilment, settlement and reconciliation. Published as a sanitized engineering snapshot with no business data or credentials. | Next.js, TypeScript, React, Prisma, SQLite |
+| [**CIFAR Robust Training Pipeline**](https://github.com/YaoSong808/cifar-robust-training-pipeline) | Reproducible image-classification workflow covering data materialization, augmentation, robust training, checkpoints and metric-driven evaluation. | Python, PyTorch, torchvision, scikit-learn |
+| [**MSc Buddy**](https://github.com/YaoSong808/msc-buddy) | Cross-platform collaboration workspace for team formation, project planning, task ownership and deadline tracking. | Flutter, Dart, Provider |
 
-## Tech toolbox
+## Research and engineering focus
 
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaFX-2C2255?style=for-the-badge&logo=java&logoColor=white" alt="JavaFX" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+- Multimodal perception, autonomous systems and sensor fusion
+- Semantic segmentation, image classification and signal-based learning
+- Reproducible experimentation, evaluation and evidence-backed reporting
+- Full-stack operational systems, data workflows and deployment engineering
 
-## What I bring
+## Core stack
 
-- **Product thinking:** I connect implementation details to the problem a user is trying to solve.
-- **Team delivery:** I have experience working through sprints, shared code, documentation, and testing.
-- **Range:** I enjoy moving between interface work, application logic, and hardware-facing code.
+**ML and vision:** Python, PyTorch, TensorFlow, OpenCV, scikit-learn  
+**Systems and applications:** TypeScript, Next.js, React, Flutter, Java, C/C++  
+**Data and operations:** Prisma, SQL, Linux, Nginx, Git
 
-<div align="center">
+## Additional builds
 
-### Thanks for visiting — let's build something useful.
+- [KidsBank](https://github.com/YaoSong808/Software-Engineering-Group-23) — team-built JavaFX financial-literacy application with structured controllers and tests
+- [ParkShare](https://github.com/YaoSong808/ParkNLot) — responsive parking-sharing product concept with driver, owner and wallet flows
+- [Obstacle-Avoidance Robot](https://github.com/YaoSong808/D-Bproject) — Arduino control system using ultrasonic sensing, motor actuation and an I²C display
 
-</div>
+Public repositories are curated to keep claims traceable, source readable and private datasets, credentials and operational records out of version control.
