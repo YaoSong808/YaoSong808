@@ -2,12 +2,13 @@
 
 **Applied Machine Learning · Computer Vision · Production Systems**
 
-I build end-to-end systems across perception research, model training and operational software. My current work centres on multimodal autonomous-driving perception, dense scene understanding and data-intensive business workflows. I am pursuing an MSc in Computer Science at The University of Hong Kong.
+I build end-to-end systems across applied machine learning, computer vision and production software. My work ranges from multimodal perception research to privacy-aware AI workflows and data-intensive business systems. I am pursuing an MSc in Computer Science at The University of Hong Kong.
 
 ## Selected engineering work
 
 | Project | Engineering focus | Stack |
 |---|---|---|
+| [**UK Visitor Visa Agent**](https://github.com/YaoSong808/uk-visitor-visa-agent) | Local-first document review agent that checks dates, travel plans, finances and sponsorship evidence, then produces risk flags, checklists and draft explanations. Ships as a web app, Windows desktop release and reusable Codex skill. | TypeScript, Next.js, OpenAI API, Electron |
 | [**Urban Scene Semantic Segmentation**](https://github.com/YaoSong808/urban-scene-semantic-segmentation) | U-Net and DeepLabV3+ pipelines for dense urban-scene understanding. The retained U-Net experiment records **0.6786 mIoU** and **89.42% pixel accuracy** on its validation split. | Python, TensorFlow, PyTorch, OpenCV |
 | [**Commerce Operations Platform**](https://github.com/YaoSong808/commerce-operations-platform) | Full-stack operational system spanning product data, marketplace orders, procurement, inventory, warehouse fulfilment, settlement and reconciliation. Published as a sanitized engineering snapshot with no business data or credentials. | Next.js, TypeScript, React, Prisma, SQLite |
 | [**CIFAR Robust Training Pipeline**](https://github.com/YaoSong808/cifar-robust-training-pipeline) | Reproducible image-classification workflow covering data materialization, augmentation, robust training, checkpoints and metric-driven evaluation. | Python, PyTorch, torchvision, scikit-learn |
