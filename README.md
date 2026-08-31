@@ -4,11 +4,17 @@
 
 <a id="en"></a>
 
-# Yao Song
+# Hi!  👋 I'm Yao Song
 
-**Applied Machine Learning · Multimodal Perception · AI Systems**
+Applied AI · Multimodal Learning · Intelligent Systems · Agent
 
-I build end-to-end systems across applied machine learning, computer vision and production software. My current research focuses on multimodal perception for autonomous driving; my engineering work spans privacy-aware AI workflows and data-intensive business systems. I am pursuing an MSc in Computer Science at The University of Hong Kong.
+I am an MSc Computer Science student at The University of Hong Kong, with research interests in applied machine learning, multimodal representation learning, and AI for real-world intelligent systems.
+
+I am currently a Research Intern at the Tsinghua Intelligent Connected Vehicle Group (THICV). I also contribute to AI research and engineering at Poxiaoyunyi Technology, a BUPT-affiliated technology team.
+
+Previously, I worked as a Data and AI Intern at Lenovo, supporting data analysis, AI-model prototyping, and product-oriented technical research.
+
+My recent research includes first-author work on contactless bruxism recognition using FMCW millimetre-wave radar, physics-aware data augmentation, and deep neural networks. The manuscript has been submitted to the 2026 IEEE GLOBECOM Workshops.
 
 ## Selected engineering work
 
@@ -59,11 +65,17 @@ Public repositories are curated to keep claims traceable, source readable and pr
 
 <p align="center"><samp><a href="#en">English</a> · <a href="#cn">中文</a></samp></p>
 
-# 宋尧
+# 你好！ 👋 我是宋尧
 
-**应用机器学习 · 多模态感知 · AI 系统**
+**应用机器学习 · 多模态感知 · AI Agent**
 
-我专注于应用机器学习、计算机视觉与工程软件的端到端开发。目前的研究方向是面向自动驾驶的多模态感知；工程实践涵盖注重隐私的 AI 工作流和数据密集型业务系统。现就读于香港大学计算机科学硕士项目。
+我是香港大学计算机科学硕士研究生，研究方向为应用型机器学习、多模态表征学习，以及面向真实场景的智能系统人工智能技术。
+
+目前任职于清华大学智能网联汽车研究组（THICV）担任研究实习生，从事端到端自动驾驶相关工作。同时，我也在北邮团队破晓云逸科技负责人工智能科研与工程落地工作。
+
+此前，我曾在联想担任数据与人工智能实习生，负责数据分析、AI 模型原型开发以及面向产品的技术调研。
+
+近期研究成果：以第一作者完成基于调频连续波（FMCW）毫米波雷达的无创磨牙症识别方案，融合物理感知数据增强策略与深度神经网络，相关论文稿件已投递至 2026 IEEE GLOBECOM Workshops。
 
 ## 代表性工程项目
 
