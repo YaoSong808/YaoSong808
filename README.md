@@ -60,7 +60,7 @@ Public repositories are curated to keep claims traceable, source readable and pr
 
 <p align="center"><samp><a href="#en">English</a> · <a href="#cn">中文</a></samp></p>
 
-# 姚松
+# 宋尧
 
 **应用机器学习 · 多模态感知 · AI 系统**
 
