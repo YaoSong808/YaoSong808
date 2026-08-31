@@ -1,8 +1,8 @@
 # Yao Song
 
-**Applied Machine Learning · Computer Vision · Production Systems**
+**Applied Machine Learning · Multimodal Perception · AI Systems**
 
-I build end-to-end systems across applied machine learning, computer vision and production software. My work ranges from multimodal perception research to privacy-aware AI workflows and data-intensive business systems. I am pursuing an MSc in Computer Science at The University of Hong Kong.
+I build end-to-end systems across applied machine learning, computer vision and production software. My current research focuses on multimodal perception for autonomous driving; my engineering work spans privacy-aware AI workflows and data-intensive business systems. I am pursuing an MSc in Computer Science at The University of Hong Kong.
 
 ## Selected engineering work
 
