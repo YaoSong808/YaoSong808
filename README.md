@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,55:1e3a5f,100:164e63&height=120&text=Yao%20Song&fontSize=36&fontColor=f8fafc&desc=Multimodal%20Perception%20%26%20AI%20Systems&descSize=16&descColor=cbd5e1&descAlignY=76" alt="Yao Song" width="100%"/>
-</p>
+![Yao Song - Multimodal Perception and AI Systems](assets/profile-header.png)
 
 <p align="center"><samp><a href="#en">English</a> · <a href="#cn">中文</a></samp></p>
 
