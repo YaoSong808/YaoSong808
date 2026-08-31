@@ -10,13 +10,12 @@
 
 I build end-to-end systems across applied machine learning, computer vision and production software. My current research focuses on multimodal perception for autonomous driving; my engineering work spans privacy-aware AI workflows and data-intensive business systems. I am pursuing an MSc in Computer Science at The University of Hong Kong.
 
-## Open source and team contributions
+## Open source contributions
 
-I contribute tested fixes, research baselines and collaborative AI systems outside my own repositories. The evidence and status below are stated explicitly so team membership, merged work and open work are not conflated.
+I contribute fixes and tested improvements to external repositories. The status below is stated explicitly so merged work and open work are not conflated.
 
-| Project | Evidence and status | Contribution |
+| Project | PR and status | Contribution |
 |---|---|---|
-| [AI Teaching Agents](https://github.com/mooooohan/AI_teaching_agents) | [First-listed team member](https://github.com/mooooohan/AI_teaching_agents#-team-members) · [Repository contributor](https://github.com/mooooohan/AI_teaching_agents/commit/9c254c63345c5970901e94b4af0efe7fb6c7514f) | Team member on a Streamlit-based AI teaching system with multi-provider LLM support, personalized content, exercises, learning analytics, document processing and session management; added the public project-demo reference. |
 | [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) · **Merged** | Made partial `/improve` analysis visible: tracks failed and total chunks, reports incomplete suggestion coverage and adds regression tests across complete, partial, fallback, disabled and artifact-output paths. |
 | [Cantonese SER Model](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) · **Merged** | Added reproducible multimodal and neural speech-emotion baselines, training code, experiment reports and implementation documentation. |
 | [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **Open** | Corrects fallback chunk alignment after a conversion failure and adds regression coverage for changed chunk boundaries. |
@@ -27,6 +26,7 @@ I contribute tested fixes, research baselines and collaborative AI systems outsi
 | Project | Engineering focus | Stack |
 |---|---|---|
 | [**UK Visitor Visa Agent**](https://github.com/YaoSong808/uk-visitor-visa-agent) | Local-first document review agent that checks dates, travel plans, finances and sponsorship evidence, then produces risk flags, checklists and draft explanations. Ships as a web app, Windows desktop release and reusable Codex skill. | TypeScript, Next.js, OpenAI API, Electron |
+| [**AI Teaching Agents**](https://github.com/mooooohan/AI_teaching_agents) | Team-built with classmates: a multi-agent teaching system for personalized content, intelligent practice, learning analytics, document processing and session management, with support for OpenAI, DeepSeek, Qwen and custom model providers. | Python, Streamlit, Agno, LLM APIs |
 | [**Urban Scene Semantic Segmentation**](https://github.com/YaoSong808/urban-scene-semantic-segmentation) | U-Net and DeepLabV3+ pipelines for dense urban-scene understanding. The retained U-Net experiment records **0.6786 mIoU** and **89.42% pixel accuracy** on its validation split. | Python, TensorFlow, PyTorch, OpenCV |
 | [**Commerce Operations Platform**](https://github.com/YaoSong808/commerce-operations-platform) | Full-stack operational system spanning product data, marketplace orders, procurement, inventory, warehouse fulfilment, settlement and reconciliation. Published as a sanitized engineering snapshot with no business data or credentials. | Next.js, TypeScript, React, Prisma, SQLite |
 | [**CIFAR Robust Training Pipeline**](https://github.com/YaoSong808/cifar-robust-training-pipeline) | Reproducible image-classification workflow covering data materialization, augmentation, robust training, checkpoints and metric-driven evaluation. | Python, PyTorch, torchvision, scikit-learn |
@@ -65,13 +65,12 @@ Public repositories are curated to keep claims traceable, source readable and pr
 
 我专注于应用机器学习、计算机视觉与工程软件的端到端开发。目前的研究方向是面向自动驾驶的多模态感知；工程实践涵盖注重隐私的 AI 工作流和数据密集型业务系统。现就读于香港大学计算机科学硕士项目。
 
-## 开源与团队贡献
+## 开源贡献
 
-我在个人仓库之外参与经过测试的缺陷修复、研究基线与协作型 AI 系统开发。下表以公开证据明确区分团队成员身份、已合并成果与仍处于开放状态的工作。
+我向外部开源仓库提交经过测试的缺陷修复和工程改进。下表明确区分已合并成果与仍处于开放状态的工作。
 
-| 项目 | 证据与状态 | 贡献内容 |
+| 项目 | PR 与状态 | 贡献内容 |
 |---|---|---|
-| [AI Teaching Agents](https://github.com/mooooohan/AI_teaching_agents) | [团队成员列表首位](https://github.com/mooooohan/AI_teaching_agents#-team-members) · [仓库贡献者](https://github.com/mooooohan/AI_teaching_agents/commit/9c254c63345c5970901e94b4af0efe7fb6c7514f) | 基于 Streamlit 的 AI 教学系统团队成员。项目支持多家 LLM、个性化内容、智能练习、学习分析、文档处理和会话管理；补充了公开项目演示入口。 |
 | [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) · **已合并** | 修复 `/improve` 在部分分析分块失败时无法体现覆盖范围的问题：记录失败及总分块数、展示不完整覆盖提示，并为完整、部分、回退、关闭配置和产物输出路径补充回归测试。 |
 | [粤语语音情感识别模型](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) · **已合并** | 新增可复现的多模态及神经网络语音情感识别基线，包括训练代码、实验报告和实现文档。 |
 | [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **开放** | 修复转换失败后回退分块的成员与边界错位问题，并为分块数量变化补充回归测试。 |
@@ -82,6 +81,7 @@ Public repositories are curated to keep claims traceable, source readable and pr
 | 项目 | 工程重点 | 技术栈 |
 |---|---|---|
 | [**英国访客签证材料助手**](https://github.com/YaoSong808/uk-visitor-visa-agent) | 本地优先的材料审查 Agent，核对日期、行程、资金与担保材料，输出风险提示、材料清单和说明草稿；同时提供 Web 应用、Windows 桌面版本和可复用 Codex skill。 | TypeScript, Next.js, OpenAI API, Electron |
+| [**AI Teaching Agents**](https://github.com/mooooohan/AI_teaching_agents) | 与同学共同开发的多 Agent 教学系统，支持个性化内容生成、智能练习、学习分析、文档处理和会话管理，并兼容 OpenAI、DeepSeek、通义千问及自定义模型服务。 | Python, Streamlit, Agno, LLM APIs |
 | [**城市街景语义分割**](https://github.com/YaoSong808/urban-scene-semantic-segmentation) | 面向城市街景理解的 U-Net 与 DeepLabV3+ 训练流程；保留的 U-Net 实验在验证集上达到 **0.6786 mIoU** 与 **89.42% 像素准确率**。 | Python, TensorFlow, PyTorch, OpenCV |
 | [**电商运营管理平台**](https://github.com/YaoSong808/commerce-operations-platform) | 覆盖商品、平台订单、采购、库存、仓储履约、结算与对账的全栈业务系统；公开版本已移除业务数据和凭据。 | Next.js, TypeScript, React, Prisma, SQLite |
 | [**CIFAR 鲁棒训练流程**](https://github.com/YaoSong808/cifar-robust-training-pipeline) | 可复现的图像分类流程，涵盖数据生成、增强、鲁棒训练、检查点管理与指标驱动评估。 | Python, PyTorch, torchvision, scikit-learn |
