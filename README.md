@@ -14,7 +14,6 @@ I am currently a Research Intern at the Tsinghua Intelligent Connected Vehicle G
 
 Previously, I worked as a Data and AI Intern at Lenovo, supporting data analysis, AI-model prototyping, and product-oriented technical research.
 
-My recent research includes first-author work on contactless bruxism recognition using FMCW millimetre-wave radar, physics-aware data augmentation, and deep neural networks. The manuscript has been submitted to the 2026 IEEE GLOBECOM Workshops.
 
 ## Selected engineering work
 
@@ -75,7 +74,7 @@ Public repositories are curated to keep claims traceable, source readable and pr
 
 此前，我曾在联想担任数据与人工智能实习生，负责数据分析、AI 模型原型开发以及面向产品的技术调研。
 
-近期研究成果：以第一作者完成基于调频连续波（FMCW）毫米波雷达的无创磨牙症识别方案，融合物理感知数据增强策略与深度神经网络，相关论文稿件已投递至 2026 IEEE GLOBECOM Workshops。
+
 
 ## 代表性工程项目
 
