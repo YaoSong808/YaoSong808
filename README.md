@@ -34,8 +34,12 @@ I contribute fixes and tested improvements to external repositories. The status 
 | Project | PR and status | Contribution |
 |---|---|---|
 | [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) · **Merged** | Made partial `/improve` analysis visible: tracks failed and total chunks, reports incomplete suggestion coverage and adds regression tests across complete, partial, fallback, disabled and artifact-output paths. |
-| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **Open** | Corrects fallback chunk alignment after a conversion failure and adds regression coverage for changed chunk boundaries. |
-| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **Open** | Extends Cyber Essentials 3.3 compliance mappings to AWS while preserving Azure mappings, with provider-discovery and compliance-output tests. |
+| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **Merged** | Corrected fallback chunk alignment after a conversion failure and added regression coverage for changed chunk boundaries. |
+| [Cantonese SER](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) · **Merged** | Added multimodal baseline results and supporting thesis artifacts for Cantonese speech-emotion recognition. |
+| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **Open · Approved** | Extends Cyber Essentials 3.3 compliance mappings to AWS while preserving Azure mappings, with provider-discovery, reference-integrity and compliance-output tests. |
+| [RAI Toolkit](https://github.com/wandb/rai-toolkit) | [#20](https://github.com/wandb/rai-toolkit/pull/20) · **Open · Review fix submitted** | Adds safe agent tool-use and goal-hijack red-team templates, with action-syntax signals and regression tests that prevent refusal text from being counted as a successful attack. |
+| [Railtracks](https://github.com/RailtownAI/railtracks) | [#1519](https://github.com/RailtownAI/railtracks/pull/1519) · **Open · Awaiting review** | Adds regression coverage for cache-aware LLM request costs, including cached input-token accounting. |
+| [Awesome AI Apps](https://github.com/Arindam200/awesome-ai-apps) | [#291](https://github.com/Arindam200/awesome-ai-apps/pull/291) · **Open · Review fixes submitted** | Adds a human-gated PydanticAI coding harness with bounded workspace access, structured proposals, patch previews, rollback, fixed test execution and machine-readable summaries. |
 
 ## Research and engineering focus
 
@@ -95,8 +99,12 @@ Public repositories are curated to keep claims traceable, source readable and pr
 | 项目 | PR 与状态 | 贡献内容 |
 |---|---|---|
 | [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) · **已合并** | 修复 `/improve` 在部分分析分块失败时无法体现覆盖范围的问题：记录失败及总分块数、展示不完整覆盖提示，并为完整、部分、回退、关闭配置和产物输出路径补充回归测试。 |
-| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **开放** | 修复转换失败后回退分块的成员与边界错位问题，并为分块数量变化补充回归测试。 |
-| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **开放** | 在保留原有 Azure 映射的基础上，为 Cyber Essentials 3.3 增加 AWS 合规检查映射，并补充 provider discovery 与合规输出测试。 |
+| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **已合并** | 修复转换失败后回退分块的成员与边界错位问题，并为分块数量变化补充回归测试。 |
+| [粤语语音情感识别](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) · **已合并** | 增加粤语语音情感识别的多模态基线结果与相关毕业设计实验材料。 |
+| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **开放 · 已批准** | 在保留原有 Azure 映射的基础上，为 Cyber Essentials 3.3 增加 AWS 合规检查映射，并补充 provider discovery、引用完整性与合规输出测试。 |
+| [RAI Toolkit](https://github.com/wandb/rai-toolkit) | [#20](https://github.com/wandb/rai-toolkit/pull/20) · **开放 · 已提交审查修复** | 增加安全的 Agent 工具调用与目标劫持红队模板，收紧为函数调用语法信号，并用回归测试避免将拒绝执行的文字误判为攻击成功。 |
+| [Railtracks](https://github.com/RailtownAI/railtracks) | [#1519](https://github.com/RailtownAI/railtracks/pull/1519) · **开放 · 等待审查** | 为缓存感知的 LLM 请求成本补充回归测试，覆盖缓存输入 token 的费用核算。 |
+| [Awesome AI Apps](https://github.com/Arindam200/awesome-ai-apps) | [#291](https://github.com/Arindam200/awesome-ai-apps/pull/291) · **开放 · 已提交审查修复** | 增加带人工批准门禁的 PydanticAI 编码 harness，包含受限工作区访问、结构化提案、补丁预览、失败回滚、固定测试命令与机器可读运行摘要。 |
 
 ## 研究与工程方向
 
