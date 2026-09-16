@@ -124,3 +124,25 @@ Public repositories are curated to keep claims traceable, source readable and pr
 - [避障机器人](https://github.com/YaoSong808/D-Bproject) - 基于超声波感知、电机控制与 I²C 显示屏的 Arduino 控制系统
 
 公开仓库经过整理，确保项目描述可追溯、源码可读，同时不会将私有数据、凭据或运营记录提交到版本控制中。
+
+---
+
+## All pull requests / 全部 PR 状态
+
+**10 pull requests: 4 merged · 6 open**<br>
+**共 10 个 PR：4 个已合并 · 6 个开放中**
+
+<sub>Last checked / 最后核对：2026-09-16</sub>
+
+| Repository | Pull request | Current status / 当前状态 |
+|---|---|---|
+| [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | [#892 · Close Code Generator modal on Escape](https://github.com/libredb/libredb-studio/pull/892) | 🟢 **Open · CI passing · Awaiting review** / 开放 · CI 通过 · 等待审查 |
+| [ikaruscareer/SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159 · Add OpenClaw and Copilot config adapters](https://github.com/ikaruscareer/SafeAI/pull/159) | ✅ **Merged** / 已合并 |
+| [salitaba/maven-decoder-mcp](https://github.com/salitaba/maven-decoder-mcp) | [#35 · Add `find_usage_examples` walkthrough](https://github.com/salitaba/maven-decoder-mcp/pull/35) | 🟢 **Open · Awaiting review** / 开放 · 等待审查 |
+| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | [#291 · Add a human-gated PydanticAI coding harness](https://github.com/Arindam200/awesome-ai-apps/pull/291) | 🔴 **Open · CI failing · Review requested** / 开放 · CI 失败 · 已请求审查 |
+| [RailtownAI/railtracks](https://github.com/RailtownAI/railtracks) | [#1519 · Verify cache-aware LLM request costs](https://github.com/RailtownAI/railtracks/pull/1519) | 🟡 **Open · Changes requested** / 开放 · 需要修改 |
+| [wandb/rai-toolkit](https://github.com/wandb/rai-toolkit) | [#20 · Add tool-use and agent attack templates](https://github.com/wandb/rai-toolkit/pull/20) | 🟡 **Open · Changes requested · CI passing** / 开放 · 需要修改 · CI 通过 |
+| [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) | [#12650 · Add Cyber Essentials AWS mappings](https://github.com/prowler-cloud/prowler/pull/12650) | 🟢 **Open · Review required · CI passing** / 开放 · 等待批准 · CI 通过 |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | [#2867 · Align fallback chunks after conversion failure](https://github.com/The-PR-Agent/pr-agent/pull/2867) | ✅ **Merged** / 已合并 |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | [#2863 · Show partial code suggestion coverage](https://github.com/The-PR-Agent/pr-agent/pull/2863) | ✅ **Merged** / 已合并 |
+| [Rudeotaku/Cantonese-SER-model](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1 · Add multimodal baseline results](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) | ✅ **Merged** / 已合并 |
