@@ -42,7 +42,6 @@ I contribute fixes and tested improvements to external repositories. The status 
 | [LibreDB Studio](https://github.com/libredb/libredb-studio) | [#892](https://github.com/libredb/libredb-studio/pull/892) · **Open · CI passing · Awaiting review** | Makes the Code Generator modal close on an unhandled Escape keypress, cleans up the listener while closed and adds focused regression coverage. |
 | [SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159](https://github.com/ikaruscareer/SafeAI/pull/159) · **Merged** | Adds first-class OpenClaw and GitHub Copilot config adapters, including structured capability extraction, discovery, fixtures and compatibility tests. |
 | [Maven Decoder MCP](https://github.com/salitaba/maven-decoder-mcp) | [#35](https://github.com/salitaba/maven-decoder-mcp/pull/35) · **Open · Awaiting review** | Documents a worked `find_usage_examples` workflow covering method filters, test ranking, constant-pool caller scanning and the scan limit. |
-| [Cantonese SER Model](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) · **Merged** | Adds multimodal speech-emotion baselines, classical and neural training pipelines, reproducible requirements and recorded experiment reports. |
 
 ## Research and engineering focus
 
@@ -110,7 +109,6 @@ Public repositories are curated to keep claims traceable, source readable and pr
 | [LibreDB Studio](https://github.com/libredb/libredb-studio) | [#892](https://github.com/libredb/libredb-studio/pull/892) · **开放 · CI 通过 · 等待审查** | 支持在未被其他处理器消费的 Escape 按键到达文档时关闭 Code Generator 弹窗，在关闭期间移除监听器，并补充针对性回归测试。 |
 | [SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159](https://github.com/ikaruscareer/SafeAI/pull/159) · **已合并** | 增加 OpenClaw 与 GitHub Copilot 的一等配置适配器，覆盖结构化能力提取、文件发现、测试夹具与兼容性测试。 |
 | [Maven Decoder MCP](https://github.com/salitaba/maven-decoder-mcp) | [#35](https://github.com/salitaba/maven-decoder-mcp/pull/35) · **开放 · 等待审查** | 补充 `find_usage_examples` 完整示例，说明方法过滤、测试优先排序、常量池调用方扫描与扫描上限。 |
-| [Cantonese SER Model](https://github.com/Rudeotaku/Cantonese-SER-model) | [#1](https://github.com/Rudeotaku/Cantonese-SER-model/pull/1) · **已合并** | 增加多模态语音情感识别基线、经典与神经网络训练流程、可复现依赖及实验报告。 |
 
 ## 研究与工程方向
 
