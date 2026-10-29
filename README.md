@@ -29,19 +29,32 @@ Previously, I worked as a Data and AI Intern at Lenovo, supporting data analysis
 
 ## Open source contributions
 
-I contribute fixes and tested improvements to external repositories. The status below is stated explicitly so merged work and open work are not conflated.
+I have **12 merged pull requests in external repositories**, spanning AI-agent infrastructure, security, developer tooling, compliance and data systems. **Cantonese Speech Emotion Recognition is a team engineering project listed above; it is not counted as an external contribution.**
+
+### Merged contributions
+
+| Project | PR | Contribution |
+|---|---|---|
+| [Prompt Shield](https://github.com/mthamil107/prompt-shield) | [#32](https://github.com/mthamil107/prompt-shield/pull/32) | Added a PydanticAI tool-result guard with model-facing serialization, structure-preserving sanitization and explicit toolset-scope documentation. |
+| [Tracekit](https://github.com/Cygnux-Labs/Tracekit) | [#350](https://github.com/Cygnux-Labs/Tracekit/pull/350) | Added OpenCode coding-agent hooks and regression coverage. |
+| [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) | [#1541](https://github.com/doobidoo/mcp-memory-service/pull/1541) | Added an OpenCode inter-agent inbox for scoped message delivery and retrieval. |
+| [Xenon](https://github.com/xianyu-sheng/Xenon) | [#142](https://github.com/xianyu-sheng/Xenon/pull/142) | Added provenance markers and advisory detection for untrusted tool output. |
+| [Railtracks](https://github.com/RailtownAI/railtracks) | [#1519](https://github.com/RailtownAI/railtracks/pull/1519) | Added cache-aware LLM request-cost regression coverage, including cached input-token accounting. |
+| [Pyrite](https://github.com/pyrite-wiki/pyrite) | [#116](https://github.com/pyrite-wiki/pyrite/pull/116) | Rejected nonexistent `kb_link` targets to prevent silent dangling knowledge-base links. |
+| [Payband MCP](https://github.com/dheerajjha/payband-mcp) | [#20](https://github.com/dheerajjha/payband-mcp/pull/20) | Added a SmartRecruiters job-board adapter. |
+| [LibreDB Studio](https://github.com/libredb/libredb-studio) | [#892](https://github.com/libredb/libredb-studio/pull/892) | Made the Code Generator modal close on an unhandled Escape keypress and added focused regression coverage. |
+| [Maven Decoder MCP](https://github.com/salitaba/maven-decoder-mcp) | [#35](https://github.com/salitaba/maven-decoder-mcp/pull/35) | Documented a worked `find_usage_examples` workflow covering filters, test ranking, caller scanning and scan limits. |
+| [SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159](https://github.com/ikaruscareer/SafeAI/pull/159) | Added first-class OpenClaw and GitHub Copilot configuration adapters with discovery and compatibility tests. |
+| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) | Corrected fallback chunk alignment after a conversion failure and added regression coverage for changed boundaries. |
+| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) | Made partial `/improve` analysis visible by reporting incomplete suggestion coverage and testing complete, partial and fallback paths. |
+
+### Active reviews
 
 | Project | PR and status | Contribution |
 |---|---|---|
-| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) · **Merged** | Made partial `/improve` analysis visible: tracks failed and total chunks, reports incomplete suggestion coverage and adds regression tests across complete, partial, fallback, disabled and artifact-output paths. |
-| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **Merged** | Corrected fallback chunk alignment after a conversion failure and added regression coverage for changed chunk boundaries. |
-| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **Open · Review required · CI passing** | Extends Cyber Essentials 3.3 compliance mappings to AWS while preserving Azure mappings, with provider-discovery, reference-integrity and compliance-output tests. |
-| [RAI Toolkit](https://github.com/wandb/rai-toolkit) | [#20](https://github.com/wandb/rai-toolkit/pull/20) · **Open · Changes requested · CI passing** | Adds safe agent tool-use and goal-hijack red-team templates, with action-syntax signals and regression tests that prevent refusal text from being counted as a successful attack. |
-| [Railtracks](https://github.com/RailtownAI/railtracks) | [#1519](https://github.com/RailtownAI/railtracks/pull/1519) · **Open · Changes requested** | Adds regression coverage for cache-aware LLM request costs, including cached input-token accounting. |
-| [Awesome AI Apps](https://github.com/Arindam200/awesome-ai-apps) | [#291](https://github.com/Arindam200/awesome-ai-apps/pull/291) · **Open · CI failing · Review requested** | Adds a human-gated PydanticAI coding harness with bounded workspace access, structured proposals, patch previews, rollback, fixed test execution and machine-readable summaries. |
-| [LibreDB Studio](https://github.com/libredb/libredb-studio) | [#892](https://github.com/libredb/libredb-studio/pull/892) · **Open · CI passing · Awaiting review** | Makes the Code Generator modal close on an unhandled Escape keypress, cleans up the listener while closed and adds focused regression coverage. |
-| [SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159](https://github.com/ikaruscareer/SafeAI/pull/159) · **Merged** | Adds first-class OpenClaw and GitHub Copilot config adapters, including structured capability extraction, discovery, fixtures and compatibility tests. |
-| [Maven Decoder MCP](https://github.com/salitaba/maven-decoder-mcp) | [#35](https://github.com/salitaba/maven-decoder-mcp/pull/35) · **Open · Awaiting review** | Documents a worked `find_usage_examples` workflow covering method filters, test ranking, constant-pool caller scanning and the scan limit. |
+| [Caura](https://github.com/caura-ai/caura-build-fleet) | [#73](https://github.com/caura-ai/caura-build-fleet/pull/73) · **Approved · Awaiting merge** | Adds an Apify actor fallback for stalled Facebook Marketplace browser extraction, with timeout, retry and regression coverage. |
+| [RAI Toolkit](https://github.com/wandb/rai-toolkit) | [#20](https://github.com/wandb/rai-toolkit/pull/20) · **Revision pushed · CI awaiting approval** | Adds safe agent tool-use and goal-hijack red-team templates, including multiline action-syntax detection and regression tests that exclude refusal text. |
+| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **Review required · CI passing** | Extends Cyber Essentials 3.3 mappings to AWS while preserving Azure mappings, with discovery, reference-integrity and output tests. |
 
 ## Research and engineering focus
 
@@ -96,19 +109,32 @@ Public repositories are curated to keep claims traceable, source readable and pr
 
 ## 开源贡献
 
-我向外部开源仓库提交经过测试的缺陷修复和工程改进。下表明确区分已合并成果与仍处于开放状态的工作。
+目前共有 **12 个外部仓库 PR 已合并**，覆盖 AI Agent 基础设施、安全、开发者工具、合规与数据系统。**粤语语音情感识别系统属于本人参与的团队工程项目，列在上方“代表性工程项目”中，不计入外部开源 PR 数量。**
+
+### 已合并贡献
+
+| 项目 | PR | 贡献内容 |
+|---|---|---|
+| [Prompt Shield](https://github.com/mthamil107/prompt-shield) | [#32](https://github.com/mthamil107/prompt-shield/pull/32) | 增加 PydanticAI 工具结果防护层，覆盖面向模型的序列化、保留结构的清理逻辑与 toolset 作用域说明。 |
+| [Tracekit](https://github.com/Cygnux-Labs/Tracekit) | [#350](https://github.com/Cygnux-Labs/Tracekit/pull/350) | 增加 OpenCode 编码 Agent hooks 与回归测试。 |
+| [MCP Memory Service](https://github.com/doobidoo/mcp-memory-service) | [#1541](https://github.com/doobidoo/mcp-memory-service/pull/1541) | 增加 OpenCode 多 Agent 收件箱，支持带作用域的消息投递与读取。 |
+| [Xenon](https://github.com/xianyu-sheng/Xenon) | [#142](https://github.com/xianyu-sheng/Xenon/pull/142) | 为不可信工具输出增加来源标记与风险提示检测。 |
+| [Railtracks](https://github.com/RailtownAI/railtracks) | [#1519](https://github.com/RailtownAI/railtracks/pull/1519) | 补充缓存感知的 LLM 请求成本回归测试，覆盖缓存输入 token 计费。 |
+| [Pyrite](https://github.com/pyrite-wiki/pyrite) | [#116](https://github.com/pyrite-wiki/pyrite/pull/116) | 拒绝指向不存在目标的 `kb_link`，避免静默产生悬空知识库链接。 |
+| [Payband MCP](https://github.com/dheerajjha/payband-mcp) | [#20](https://github.com/dheerajjha/payband-mcp/pull/20) | 增加 SmartRecruiters 招聘网站适配器。 |
+| [LibreDB Studio](https://github.com/libredb/libredb-studio) | [#892](https://github.com/libredb/libredb-studio/pull/892) | 支持按 Escape 关闭 Code Generator 弹窗，并补充针对性回归测试。 |
+| [Maven Decoder MCP](https://github.com/salitaba/maven-decoder-mcp) | [#35](https://github.com/salitaba/maven-decoder-mcp/pull/35) | 补充 `find_usage_examples` 完整示例，覆盖过滤、测试排序、调用方扫描与扫描上限。 |
+| [SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159](https://github.com/ikaruscareer/SafeAI/pull/159) | 增加 OpenClaw 与 GitHub Copilot 配置适配器，以及文件发现和兼容性测试。 |
+| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) | 修复转换失败后回退分块的成员与边界错位问题，并补充回归测试。 |
+| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) | 让部分 `/improve` 分析的覆盖范围可见，并覆盖完整、部分与回退路径测试。 |
+
+### 进行中的审查
 
 | 项目 | PR 与状态 | 贡献内容 |
 |---|---|---|
-| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2863](https://github.com/The-PR-Agent/pr-agent/pull/2863) · **已合并** | 修复 `/improve` 在部分分析分块失败时无法体现覆盖范围的问题：记录失败及总分块数、展示不完整覆盖提示，并为完整、部分、回退、关闭配置和产物输出路径补充回归测试。 |
-| [The PR Agent](https://github.com/The-PR-Agent/pr-agent) | [#2867](https://github.com/The-PR-Agent/pr-agent/pull/2867) · **已合并** | 修复转换失败后回退分块的成员与边界错位问题，并为分块数量变化补充回归测试。 |
-| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **开放 · 等待批准 · CI 通过** | 在保留原有 Azure 映射的基础上，为 Cyber Essentials 3.3 增加 AWS 合规检查映射，并补充 provider discovery、引用完整性与合规输出测试。 |
-| [RAI Toolkit](https://github.com/wandb/rai-toolkit) | [#20](https://github.com/wandb/rai-toolkit/pull/20) · **开放 · 需要修改 · CI 通过** | 增加安全的 Agent 工具调用与目标劫持红队模板，收紧为函数调用语法信号，并用回归测试避免将拒绝执行的文字误判为攻击成功。 |
-| [Railtracks](https://github.com/RailtownAI/railtracks) | [#1519](https://github.com/RailtownAI/railtracks/pull/1519) · **开放 · 需要修改** | 为缓存感知的 LLM 请求成本补充回归测试，覆盖缓存输入 token 的费用核算。 |
-| [Awesome AI Apps](https://github.com/Arindam200/awesome-ai-apps) | [#291](https://github.com/Arindam200/awesome-ai-apps/pull/291) · **开放 · CI 失败 · 已请求审查** | 增加带人工批准门禁的 PydanticAI 编码 harness，包含受限工作区访问、结构化提案、补丁预览、失败回滚、固定测试命令与机器可读运行摘要。 |
-| [LibreDB Studio](https://github.com/libredb/libredb-studio) | [#892](https://github.com/libredb/libredb-studio/pull/892) · **开放 · CI 通过 · 等待审查** | 支持在未被其他处理器消费的 Escape 按键到达文档时关闭 Code Generator 弹窗，在关闭期间移除监听器，并补充针对性回归测试。 |
-| [SafeAI](https://github.com/ikaruscareer/SafeAI) | [#159](https://github.com/ikaruscareer/SafeAI/pull/159) · **已合并** | 增加 OpenClaw 与 GitHub Copilot 的一等配置适配器，覆盖结构化能力提取、文件发现、测试夹具与兼容性测试。 |
-| [Maven Decoder MCP](https://github.com/salitaba/maven-decoder-mcp) | [#35](https://github.com/salitaba/maven-decoder-mcp/pull/35) · **开放 · 等待审查** | 补充 `find_usage_examples` 完整示例，说明方法过滤、测试优先排序、常量池调用方扫描与扫描上限。 |
+| [Caura](https://github.com/caura-ai/caura-build-fleet) | [#73](https://github.com/caura-ai/caura-build-fleet/pull/73) · **已批准 · 等待合并** | 为卡住的 Facebook Marketplace 浏览器提取增加 Apify actor 回退机制，并覆盖超时、重试和回归测试。 |
+| [RAI Toolkit](https://github.com/wandb/rai-toolkit) | [#20](https://github.com/wandb/rai-toolkit/pull/20) · **已推送修改 · CI 等待批准** | 增加安全的 Agent 工具调用与目标劫持红队模板，覆盖多行调用语法检测，并避免将拒绝文本误判为成功攻击。 |
+| [Prowler](https://github.com/prowler-cloud/prowler) | [#12650](https://github.com/prowler-cloud/prowler/pull/12650) · **等待审查 · CI 通过** | 在保留 Azure 映射的基础上，为 Cyber Essentials 3.3 增加 AWS 合规映射及发现、引用完整性与输出测试。 |
 
 ## 研究与工程方向
 
